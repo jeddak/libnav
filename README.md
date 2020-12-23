@@ -1,9 +1,11 @@
-#libnav
+# libnav
 
-## How To Use
+## Overview
 A minimalistic, drop-in hierarchical navigation system for a web-based document repository.
 Implemented in PHP, HTML, CSS and Javascript.
 Built on top of a modified version of Cory LaViska's PHP File Tree ( https://www.abeautifulsite.net/php-file-tree )
+
+---
 
 ## Description
 
@@ -12,7 +14,6 @@ Provides a collapsable hierarchical menu tree on the left-hand side of your brow
 Content is displayed on the right-hand side of the browser.
 
 ---
-
 
 ## How To Deploy
 
@@ -23,11 +24,11 @@ Content is displayed on the right-hand side of the browser.
 3. A way of executing PHP via the HTTP server
 4. A directory containing documents you wish to access using libnav, accessible to the HTTP server
 
-### Setup
+### Steps
 
 1. place the contents of libnav in the directory containing the documents you want to access
 2. Set up an index.php page containing an index iframe and a content iframe:
-      
+      `
       <!DOCTYPE html>
       <html>
           <head>
@@ -64,10 +65,10 @@ Content is displayed on the right-hand side of the browser.
           </script>
         </body>
       </html>
-      
-3. Optionally, create custom CSS styles. In the above example, this is  ./libnav/css/my_custom.css
+      `
+3. Optionally, create custom CSS styles. In the above example, this is  `./libnav/css/my_custom.css`
 
-4. Optionally, Set up a default page to appear in the 'content' iframe.  In the above example, this is  ./libnav/home.html
+4. Optionally, Set up a default page to appear in the 'content' iframe.  In the above example, this is  `./libnav/home.html`
 
 **Version 1.0.0**
 ---
