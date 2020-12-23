@@ -28,8 +28,10 @@ Content is displayed on the right-hand side of the browser.
 
 1. place the contents of libnav in the directory containing the documents you want to access
 2. Set up an index.php page containing an index iframe and a content iframe:
-      ```
-      <!DOCTYPE html>
+
+```
+
+    <!DOCTYPE html>
       <html>
           <head>
               <title>My Spiffy Document Repository</title>
@@ -65,7 +67,10 @@ Content is displayed on the right-hand side of the browser.
           </script>
         </body>
       </html>
+
 ```
+
+
 3. Optionally, create custom CSS styles. In the above example, this is  `./libnav/css/my_custom.css`
 
 4. Optionally, Set up a default page to appear in the 'content' iframe.  In the above example, this is  `./libnav/home.html`
