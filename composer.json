@@ -1,0 +1,18 @@
+{
+    "name": "treeblossom/libnav",
+    "description": "A minimalistic, drop-in hierarchical navigation system for a web-based document repository.",
+    "type": "project",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5"
+    },
+    "license": "Creative Commons CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "authors": [
+        {
+            "name": "jdonald",
+            "email": "jdonald@treeblossom.com"
+        }
+    ]
+}
