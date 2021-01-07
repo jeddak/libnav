@@ -26,8 +26,14 @@ Content is displayed on the right-hand side of the browser.
 
 ### Steps
 
-1. place the contents of libnav in the directory containing the documents you want to access
-2. Set up an index.php page containing an index iframe and a content iframe:
+1. create a directory named libnav in the directory containing the documents you want to access
+2. copy the contents of the project's libnav/src into the libnav directory created in step 1:
+     ./libnav/css
+     ./libnav/directorylisting.php
+     ./libnav/img
+     ./libnav/js
+     ./libnav/php
+3. Set up an index.php page containing an index iframe and a content iframe:
 
 ```
 
@@ -71,11 +77,11 @@ Content is displayed on the right-hand side of the browser.
 ```
 
 
-3. Optionally, create custom CSS styles. In the above example, this is  `./libnav/css/my_custom.css`
+4. Optionally, create custom CSS styles. In the above example, this is  `./libnav/css/my_custom.css`
 
-4. Optionally, Set up a default page to appear in the 'content' iframe.  In the above example, this is  `./libnav/home.html`
+5. Optionally, Set up a default page to appear in the 'content' iframe.  In the above example, this is  `./libnav/home.html`
 
-**Version 1.0.0**
+**Version 1.0.1**
 ---
 ## Contributors
 
