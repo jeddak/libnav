@@ -10,8 +10,8 @@
   </head>
   <body>
       <?php
-      include("./php_file_tree.php");	                	
-      echo php_file_tree("../../", "null;");
+      include("./php_file_tree.php");
+      echo (new PhpFileTree())->get_xhtml_file_tree("../../", "null;");
       ?>
 </body>
 </html>
