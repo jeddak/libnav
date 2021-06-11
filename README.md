@@ -28,11 +28,11 @@ Content is displayed on the right-hand side of the browser.
 
 1. create a directory named libnav in the directory containing the documents you want to access
 2. copy the contents of the project's libnav/src into the libnav directory created in step 1:
-     ./libnav/css
-     ./libnav/directorylisting.php
-     ./libnav/img
-     ./libnav/js
-     ./libnav/php
+    - ./libnav/css
+    - ./libnav/directorylisting.php
+    - ./libnav/img
+    - ./libnav/js
+    - ./libnav/php
 3. Set up an index.php page containing an index iframe and a content iframe:
 
 ```
