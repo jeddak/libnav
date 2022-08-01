@@ -114,8 +114,7 @@
                                    $link = str_replace("[link]", "$directory/" . urlencode($this_file), "$directory/" . urlencode($this_file));
                                    $html_output_buffer .= "<li class=\"pft-directory\"><a class=\"toggle\">" . htmlspecialchars($this_file) . "</a>";
                                        $html_output_buffer .= "<a href=\"$link/\" target=\"contentFrame\"   > ->  </a>";
-                                       //    $html_output_buffer .= $this->build_xhtml_file_tree("$directory/$this_file", $return_link ,$extensions, false);
-                                       $html_output_buffer .= $this->build_xhtml_file_tree("$directory/$this_file","" ,$extensions, false);                                       
+                                       $html_output_buffer .= $this->build_xhtml_file_tree("$directory/$this_file","", array(), false);                                       
                                        $html_output_buffer .= "</li>";
                                    }
                                }
